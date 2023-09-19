@@ -13,7 +13,8 @@ module.exports = {
                     { name: 'Apex Legends', value: 'Apex Legends'},
                     { name: "Baldur's Gate 3", value: "Baldur's Gate 3"},
                     { name: 'Halo', value: 'Halo'},
-                    { name: 'Fortnite', value: 'Fortnite'})
+                    { name: 'Fortnite', value: 'Fortnite'},
+                    { name: 'Overwatch', value: 'Overwatch'})
         ),
     async execute(interaction) {
         const game = interaction.options.getString('game');
